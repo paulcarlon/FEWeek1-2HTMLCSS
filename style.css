@@ -14,7 +14,6 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .container {
@@ -104,4 +103,10 @@ input {
   border: 0;
   text-align: center;
   margin: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 20em;
+  }
 }
