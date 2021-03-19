@@ -84,6 +84,15 @@ td {
   padding-right: 1.5rem;
 }
 
+.content table th,
+td {
+  padding-right: 1.5rem;
+}
+
+.content table td {
+  color: rgba(155, 155, 155, 0.5);
+}
+
 .photoBox img {
   height: 20rem;
   border-radius: 6px;
