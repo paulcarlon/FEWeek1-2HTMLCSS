@@ -23,7 +23,7 @@ body {
   width: 30rem;
 }
 
-.logo h1 {
+#logo h1 {
   margin-top: 3rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -38,7 +38,14 @@ span {
   color: rgb(212, 166, 255);
 }
 .navigation {
+  margin-top: -0.9rem;
   width: 90%;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navigation li {
@@ -58,36 +65,33 @@ a:hover {
   opacity: 30%;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
-
 .content {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   color: #fff;
   height: 60vh;
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
 .content h2,
 p {
-  padding: 3rem 1rem 0 1rem;
+  padding: 1.5rem 1rem 0 1rem;
 }
 
-.content table th,
-td {
-  padding-right: 1.5rem;
+.content hr {
+  border-top: 3px solid #fff;
 }
 
 .content table {
-  margin-left: 5%;
+  width: 28rem;
+  padding-left: 7%;
 }
 .content table td {
-  color: rgba(155, 155, 155, 0.5);
+  color: rgb(212, 166, 255);
+}
+
+.content table tr {
+  background-color: #333;
 }
 
 .photoBox img {
