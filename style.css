@@ -116,6 +116,10 @@ input[type='submit'] {
 
 @media (max-width: 500px) {
   .container {
-    width: 20em;
+    width: 25em;
+  }
+
+  .content table {
+    width: 23rem;
   }
 }
